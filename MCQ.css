@@ -1,0 +1,54 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.mcq,
+.result {
+  height: 70%;
+  width: 531px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.statement {
+  text-align: center;
+}
+.option {
+  list-style: none;
+  border: 2px solid blue;
+  margin: 8px 0px 8px 0px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+.option:hover {
+  background-color: rgb(226, 222, 222);
+}
+.result-message {
+  text-align: center;
+  font-size: 2rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.restart {
+  background: none;
+  border: 2px solid black;
+  margin: 15px auto;
+  padding: 10px 60px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+.restart:hover {
+  background-color: black;
+  color: white;
+}
